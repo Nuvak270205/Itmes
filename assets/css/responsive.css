@@ -1,0 +1,111 @@
+
+/* Ipad */
+@media(min-width: 740px) and (max-width: 1023px){
+    .about,
+    .header{
+        padding: 0 104px;
+    }
+    .header__logo{
+        min-width: 140px;
+    }
+    .header__button{
+        min-width: 102px;
+    }
+    .about__image{
+        margin-top: 64px;
+        margin-bottom: 64px;
+    }
+    .title-three,
+    .title{
+        margin: 64px 120px;
+    }
+    .title__heading{
+        width: 100%;
+        height: 60px;
+        margin-bottom: 32px;
+    }
+    .title__item{
+        flex: 1 1 calc(50% - 16px);
+        max-width: calc(50% - 16px);
+    }
+    .title-tow{
+        padding: 64px 120px;
+    }
+    .title__item-tow{
+        flex: 1 1 calc(33.333% - 22px);
+        max-width: calc(33.333% - 22px);
+    }
+    .title__item-tow:last-child{
+        margin-right: calc(33.333% + 12px);
+    }
+    .title__item-three{
+        flex: 1 1 calc(50% - 16px);
+        max-width: calc(50% - 16px);
+    }
+    
+}
+/* moblie */
+@media(max-width: 739px){
+    .about,
+    .header{
+        justify-content: space-between;
+        padding: 0;
+    }
+    .header__menu{
+        flex: none;
+        min-width: 0;
+        order: 1;
+        width: 66px;
+        height: 36px;
+    }
+    .header__logo{
+        max-width:140px;
+        order: 2;
+    }
+    .header__button{
+        max-width: 78px;
+        order: 3;
+    }
+    .shared.heading{
+        font-size: 16px;
+    }
+    .about{
+        flex-direction: column-reverse;
+    }
+    .about__image{
+        flex: none;
+        width: calc(100% - 32px);
+        margin: 64px 0 32px;
+    }
+    .about__content{
+        flex: none;
+        width: calc(100% - 32px);
+        height: 267px;
+        margin-bottom: 64px;
+    }
+    .title-three,
+    .title{
+        margin: 64px 16px ;
+    }
+    .title__heading{
+        width: 100%;
+        height: 60px;
+        margin: 64px 0 32px;
+    }
+    .title__item{
+        flex: 1 1 100%;
+        max-width: 100%;
+        aspect-ratio: 546 / 420;
+    }
+    .title-tow{
+        padding: 64px 16px;
+    }
+    .title__item-tow{
+        flex: 1 1 calc(50% - 16px);
+        max-width: calc(50% - 16px);
+    }
+    .title__item-three{
+        flex: 1 1 calc(50% - 16px);
+        max-width: calc(50% - 16px);
+    }
+}
