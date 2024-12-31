@@ -8,6 +8,9 @@
     .header__logo{
         min-width: 140px;
     }
+    .header__menu{
+        min-width: 150px;
+    }
     .header__button{
         min-width: 102px;
     }
